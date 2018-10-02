@@ -7,4 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".StoryActivity">
 
+    <ImageView
+        android:id="@+id/storyImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/page0"/>
+
+    <Button
+        android:id="@+id/choiceButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#ffffff"
+        android:text="Continue Home to Earth"
+        android:textColor="#3a8aec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choiceButton1"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <Button
+        android:id="@+id/choiceButton1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Stop and Investigate"
+        android:textColor="#3a8aec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="409dp"/>
 </android.support.constraint.ConstraintLayout>

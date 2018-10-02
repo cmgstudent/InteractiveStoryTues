@@ -2,4 +2,7 @@
     <string name="app_name">Signals From Mars</string>
     <string name="button_text">Start Your Adventure</string>
     <string name="edit_text_hint">Enter your Name</string>
+
+
+    <!--page0, page0_choice1, page0_choice2-->
 </resources>

@@ -34,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, StoryActivity.class);
         intent.putExtra("name", name);
         startActivity(intent);
+        //Bob makes paperclips
     }
 }
