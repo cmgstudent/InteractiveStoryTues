@@ -4,7 +4,7 @@ public class Choice {
     private int nextPage;
     private int textId;
 
-    public Choice(int nextPage, int textId) {
+    public Choice(int textId, int nextPage) {
         this.nextPage = nextPage;
         this.textId = textId;
     }
